@@ -1,0 +1,3 @@
+FROM tomcat:8-jre
+MAINTAINER Me "kharichandana514@gmail.com"
+ADD dockerwar.war /usr/local/tomcat/webapps/
